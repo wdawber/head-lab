@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://vahiddarvishi.github.io/news/atom.xml</id>
+  <title>HEAD Lab — News</title>
+  <subtitle>Lab updates, publications, and press coverage from HEAD Lab at Imperial College London.</subtitle>
+  <link rel="self" href="https://vahiddarvishi.github.io/news/atom.xml"/>
+  <link href="https://vahiddarvishi.github.io/news/"/>
+  <updated>2026-06-18T20:52:19.114Z</updated>
+  <author><name>HEAD Lab</name></author>
+  <generator uri="https://astro.build/">Astro</generator>
+
+</feed>

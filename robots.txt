@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://headlab.example.org/sitemap-index.xml

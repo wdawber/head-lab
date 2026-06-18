@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="HEAD Lab — Imperial College London">
+  <defs>
+    <radialGradient id="g" cx="68%" cy="38%" r="60%">
+      <stop offset="0%" stop-color="#2E5BFF" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#0B0F14" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#0B0F14"/>
+  <rect width="1200" height="630" fill="url(#g)"/>
+
+  <!-- Ambient wave-propagation rings -->
+  <g transform="translate(880 315)" fill="none" stroke="#2E5BFF" stroke-opacity="0.35">
+    <ellipse cx="0" cy="0" rx="110" ry="74"/>
+    <ellipse cx="0" cy="0" rx="170" ry="114"/>
+    <ellipse cx="0" cy="0" rx="230" ry="154"/>
+    <ellipse cx="0" cy="0" rx="290" ry="194"/>
+  </g>
+
+  <!-- HL mark, mirroring the favicon proportions, larger -->
+  <g transform="translate(80 110)" fill="#F7F5F0">
+    <path d="M0 0h22v44h36V0h22v110H58V64H22v46H0z"/>
+    <path d="M110 0h22v90h36v20h-58z"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="80" y="320" fill="#F7F5F0" font-family="Georgia, 'Times New Roman', serif" font-size="76" font-weight="600" letter-spacing="-2">HEAD Lab</text>
+  <text x="80" y="362" fill="#A6A8A6" font-family="ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="20" letter-spacing="2">IMPERIAL COLLEGE LONDON · DYSON SCHOOL OF DESIGN ENGINEERING</text>
+
+  <!-- Mission line -->
+  <text x="80" y="470" fill="#F7F5F0" font-family="Georgia, 'Times New Roman', serif" font-size="34" letter-spacing="-0.5">
+    <tspan x="80" dy="0">Computational and physical models of the brain,</tspan>
+    <tspan x="80" dy="44">to predict and prevent injury.</tspan>
+  </text>
+
+  <!-- Footer mark -->
+  <rect x="80" y="558" width="40" height="2" fill="#2E5BFF"/>
+  <text x="140" y="566" fill="#A6A8A6" font-family="ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="14" letter-spacing="1.5">Human Experience, Analysis and Design</text>
+</svg>

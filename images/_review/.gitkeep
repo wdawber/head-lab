@@ -1,0 +1,3 @@
+# Quarantine folder for images under review (migration).
+# Assets land here first. Only files explicitly promoted to public/images/
+# (or a named subfolder like public/images/people/) are wired into pages.
